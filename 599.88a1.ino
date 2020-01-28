@@ -113,7 +113,7 @@ void loop() {
   lastButtonState = buttonState;
 
 
-  // turns on the LED every four button pushes by checking the modulo of the
+  // turns on the LED every other button push by checking the modulo of the
   // button push counter. the modulo function gives you the remainder of the
   // division of two numbers:
   if (buttonPushCounter % 2 == 0) {
