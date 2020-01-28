@@ -1,13 +1,11 @@
 /*
-  CPSC 599.88 Physical & Tangible HCI, Winter 2020
-  Assignment 1 - Arduino Hello World
-  An LED controlled by a button, plus a creative surprise
-    - action based on number of times the button is pressed https://www.arduino.cc/en/Tutorial/StateChangeDetection
-    - blink light https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay
-    - play sound? https://www.arduino.cc/en/Tutorial/ToneMelody
-
-  Katie Tieu
-  30018168
+ * CPSC 599.88 Physical & Tangible HCI, Winter 2020
+ * Assignment 1 - Arduino Hello World
+ * A button which toggles an LED and simultaneously plays notes from "Running in the 90's"
+ * Some code adapted from https://www.arduino.cc/en/Tutorial/ToneMelody and https://www.arduino.cc/en/Tutorial/StateChangeDetection
+ *
+ * Katie Tieu
+ * 30018168
 */
 
 #include "pitches.h"
